@@ -1,0 +1,67 @@
+:root{
+    /* Font clolor */
+
+    --color: white;
+    --color1: rgb(153, 50, 50);
+    --color2: rgb(56, 161, 65);
+    --color3: rgb(41, 101, 124);
+    --color4: black;
+
+    /* Background-color */
+
+    --background-color1: rgb(43, 89, 107);
+    --background-color2: rgb(67, 18, 131);
+    --background-color3: rgb(145, 48, 116);
+    --background-color4: rgb(167, 20, 81);
+    --background-color5: rgb(180, 218, 45);
+
+    /* Font style  */
+
+    --font-family: monospace;
+    --font-family1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-family2: 'Times New Roman', Times, serif;
+    --font-family3: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --font-family4: Verdana, Geneva, Tahoma, sans-serif;
+    --font-family5: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font-family6: 'Fasthand', cursive;
+
+    /* Font Size  */
+
+    --font-size: 10px;
+    --font-size1: 15px;
+    --font-size2: 20px;
+    --font-size3: 25px;
+    --font-size4: 30px;
+    --font-size5: 35px;
+    --font-size6: 40px;
+
+    /* Border */
+
+    --border: solid 1px var(--color);
+    --border1: solid 2px var(--color1);
+    --border2: solid 3px var(--color2);
+    --border3: solid 4px var(--color3);
+    --border4: solid 5px var(--color4);
+    
+    /* Text aligen */
+
+    --text-align: center;
+    --text-align1: end;
+    --text-align2: justify;
+    --text-align3: left;
+    --text-align4: right;
+    --text-align5: start;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    scroll-behavior: smooth;
+    color: var(--color);
+    background-color: var(--background-color1);
+}
+

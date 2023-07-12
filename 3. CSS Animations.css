@@ -1,0 +1,65 @@
+.head{
+    color: var(--color);
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--background-color4);
+    font-size: var(--font-size6);
+    margin-bottom: 3pc;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 30%;
+
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background: darkblue;
+    border: 10px solid rgb(7, 4, 4);    
+}
+.child{
+    width: 97px;
+    height: 97px;
+    background: red;
+    border-radius: 90%;
+    border: 1px solid rgb(0, 26, 255);    
+}
+
+.container:hover > .child{
+    animation: round 3s ease-in infinite forwards reverse ;
+    animation-play-state: running;
+}
+
+@keyframes round{
+    /* state in the animation; */
+    
+    /* initial,rpremid, mid post mid end */
+    
+    0%{
+        background-color: yellow;
+        transform: translateX(0%) ;
+    }
+    
+    25%{
+        background-color: rgb(241, 10, 210);
+        transform: translateY(500%) ;
+    }
+     
+    50%{
+        background-color: rgb(10, 241, 79);
+        transform: translateX(500%) translateY(500%);
+    }
+
+
+    75%{
+        background-color: rgb(10, 195, 241);
+        transform: translateX(500%);
+    }
+ 
+    100%{
+        background-color: rgb(10, 241, 79);
+        transform: translateY(0%);
+        
+    }
+ 
+}
